@@ -1,1 +1,21 @@
-/*  your css code here. If applicable */
+  .progress-bar {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+    .circle {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: gray;
+      margin: 0 10px;
+    }
+    .active {
+      background-color: green;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+    }
